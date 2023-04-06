@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TST_API_MySql", "TST_API_MySql\TST_API_MySql.csproj", "{8C7B3A35-17A1-459E-A928-AFEBBB7466E4}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8881745C-A871-455F-8DBD-FF253954AEF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C7B3A35-17A1-459E-A928-AFEBBB7466E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7B3A35-17A1-459E-A928-AFEBBB7466E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7B3A35-17A1-459E-A928-AFEBBB7466E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7B3A35-17A1-459E-A928-AFEBBB7466E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8881745C-A871-455F-8DBD-FF253954AEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8881745C-A871-455F-8DBD-FF253954AEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8881745C-A871-455F-8DBD-FF253954AEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8881745C-A871-455F-8DBD-FF253954AEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {865DA31A-3A81-4851-8494-6A4224AEB993}
+	EndGlobalSection
+EndGlobal

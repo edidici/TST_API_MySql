@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  tst_api_mysql:
+    image: ${DOCKER_REGISTRY-}tstapimysql
+    build:
+      context: .
+      dockerfile: TST_API_MySql/Dockerfile
+
+  database:
+    image: mysql:5.7
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'   
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: 'pwd'      
+      MYSQL_ROOT_PASSWORD: 'pwd'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - './.mysql-data/db:/var/lib/mysql'
